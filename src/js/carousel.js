@@ -33,12 +33,16 @@ class Carousel {
   }
 
   init() {
-    this.carousel.style.width = this.item.offsetWidth + 'px';
-    this.carousel.style.height = this.item.offsetHeight + 'px';
+    this.setCarouselSize();
     this.attachEvent();
     this.insertClone();
     this.moveWithoutAnimation();
     this.carousel.style.opacity = 1;
+  }
+
+  setCarouselSize() {
+    this.carousel.style.width = this.item.offsetWidth + 'px';
+    this.carousel.style.height = this.item.offsetHeight + 'px';
   }
 
   attachEvent() {
