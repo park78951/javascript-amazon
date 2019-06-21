@@ -23,11 +23,18 @@ class Carousel {
     this.container = this.carousel.querySelector(container);
     this.item = this.carousel.querySelector(item);
     this.items = this.carousel.querySelectorAll(items);
+    
+    // o
     this.itemWidth = this.item.offsetWidth;
+    // o
     this.offset = -this.itemWidth;
+    // o
     this.currentItem = currentItem;
+    // main
     this.itemsLength = this.items.length;
+    // main
     this.config = config;
+    // main
     this.isTransitioning = false;
   }
 
