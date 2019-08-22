@@ -1,5 +1,5 @@
 import * as ut from '../../../lib/myUtil/myUtil.js';
-import { AUTOCOM_DATA_URL } from '../helper/config.js';
+import { AUTOCOM_DATA_URL, AUTOCOM_DATA_LOCAL } from '../helper/config.js';
 import { NOT_FOUND, UNEXPECTED_ERROR } from '../helper/message.js'
 
 

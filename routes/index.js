@@ -5,7 +5,7 @@ const path = require('path');
 
 router.get("/", (req, res) => {
   fs.readFile(
-    path.join( __dirname, "../public/index.html"),
+    path.join( __dirname, "../src/public/index.html"),
     (err, data) => {
       res.write(data);
       res.end();
@@ -17,7 +17,7 @@ router.get("/", (req, res) => {
     let suggestions;
     const prefix = req.query.query;
 
-    suggestions = `../public/json/amazon_api-${prefix}.json`
+    suggestions = `../src/public/json/amazon_api-${prefix}.json`
     fs.readFile(
       path.join( __dirname, suggestions),
       (err, data) => {
