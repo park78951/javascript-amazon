@@ -1,15 +1,14 @@
 # Javascript-Amazon-Codesquad
 
-## Introduction
-Web Application에 쓰이는 검색창 UI와 캐러셀 UI를 구현했습니다. [아마존](https://www.amazon.com) UI의 기능을 참고해 만들었으며, Vanilla Javascript로 구현했습니다.
-[자동완성 검생창 & 캐러셀 UI 데모링크](https://ssangq-amazon.herokuapp.com/)
-
 ### Autocomplete Search Bar
 ![autocomplete](https://user-images.githubusercontent.com/37759759/65008807-82169680-d945-11e9-9e43-fba96b0dff47.gif)
 
 ### Carousel UI
 ![Carousel](https://user-images.githubusercontent.com/37759759/65009157-bfc7ef00-d946-11e9-967c-428c3f617ff3.gif)
 
+## Introduction
+Web Application에 쓰이는 검색창 UI와 캐러셀 UI를 구현했습니다. [아마존](https://www.amazon.com) UI의 기능을 참고해 만들었으며, Vanilla Javascript로 구현했습니다.
+[자동완성 검생창 & 캐러셀 UI 데모링크](https://ssangq-amazon.herokuapp.com/)
 
 ## Requirements
 - ES6 Classes를 사용한다.
