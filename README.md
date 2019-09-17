@@ -50,11 +50,11 @@ Web Application에 쓰이는 검색창 UI와 캐러셀 UI를 구현했습니다.
 - 느낀점
   - 무조건 MVC pattern의 사용은 피하고, 단순한 구조에서는 Model과 View에서 controller의 기능을 수행하는 것이 복잡성을 줄이고 효율적이라고 생각했다.
   - 각각의 View에 Controller가 직접 접근해 작업하는 방식은 서로 다른 View의 상호 의존적 작업을 하기가 복잡해 이러한 작업을 할 수 있는 Main View를 만들어 각각의 View를 관리하고 Controller와 직접 작업하도록 구현했다.
-</br>
+
 #### 2. Promise then 체인에 대한 이해
 - Promise가 then chain을 할 수 있는 것은 Promise를 return 하도록 구현
 - Promise의 then chain이 동기적으로 처리하는 것은 then chain의 callback 함수와 callback 함수의 return value를 기억하여 순차적으로 실행 및 저장하도록 구현.
-</br>
+
 #### 3. 이벤트의 중복과 Debounce
 - 최근검색 결과와 지연 출력되도록 구현한 자동완성 결과가 이벤트의 중복으로 함께 출력됨.
 - 자동완성 기능 중 모든 입력에 대한 결과를 API로 요청
